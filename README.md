@@ -28,15 +28,14 @@
 
 ## Overview
 
-This tutorial serves as a walkthrough of the basic features found in Chrome DevTools--a set of tools built into the Chrome browser made to help web developers.  
-We will explore the main features and functions of Chrome DevTools, as well as how they can help you be more productive. First we will go over some helpful  
-configuration options, and then explore the common uses of the Elements, Console, Sources, and Network tabs.  
+This tutorial serves as a walkthrough of the basic features found in Chrome DevTools--a set of tools built into the Chrome browser made to help web developers.
+We will explore the main features and functions of Chrome DevTools, as well as how they can help you be more productive. First we will go over some helpful configuration options, and then explore the common uses of the elements, console, sources, and network tabs.
 
-This tutorial is aimed at someone just beginning web development. You should have some familiarity with how HTML, CSS, and JavaScript function together to build  
-a website, but detailed knowledge is not necessary. We will cover only the basic uses of DevTools, for full documentation please refer to the [Official Guide](https://developer.chrome.com/docs/devtools/).  
+<br/>
+  
+This tutorial is aimed at someone just beginning web development. You should have some familiarity with how HTML, CSS, and JavaScript function together to build a website, but detailed knowledge is not necessary. We will cover only the basic uses of DevTools, for full documentation please refer to the [Official Guide](https://developer.chrome.com/docs/devtools/).
 
-*put in table giving basic breakdown of each tab
-
+<br/>
 
 ## Getting Started
 
