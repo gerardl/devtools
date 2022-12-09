@@ -205,8 +205,13 @@ The second image shows the response. In this instance, it is [JSON](https://en.w
 <br/>
 <br/>
 
+<div align="center">
+
 *This guide was created by [Gerard Lucas](https://gerardlucas.com) for IT1600-01 @ The University of Missouri-Columbia*
 
 <br />
 
 [Back to Top](#an-intro-to-chrome-devtools)
+
+</div>
+
