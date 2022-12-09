@@ -93,7 +93,11 @@ The elements tab is probably the most used section of DevTools. Elements allows 
 
 ### *Element Highlighting*
 
-The DOM of a typical website can be absolutely massive, so one of the most helpful features of the elements tab is the ability to click on a section of the page and jump right to the HTML that created it. Not only that, but DevTools highlights the selected element, like in the image below, and even shows you padding and margins around it--represented by the green and orange boxes, respectively. right click an element on the page -> click inspect element -> elements tab opens focused to this element
+The DOM of a typical website can be absolutely massive, so one of the most helpful features of the elements tab is the ability to click on a section of the page and jump right to the HTML that created it. Not only that, but DevTools highlights the selected element, like in the image below, and even shows you padding and margins around it--represented by the green and orange boxes, respectively. You can select an element in three ways:
+
+1. By right clicking an element on the page and selecting *inspect element*
+2. You can click the element in the DOM explorer
+3. You can use the mouse pointer button--the very first button in the DevTools menu
 
 <br />
 
@@ -103,9 +107,7 @@ The DOM of a typical website can be absolutely massive, so one of the most helpf
 
 ## Console
 
-If you don't have the console drawer open, you can get to it by typing ctrl+shift+j or it is the second tab after hitting F12.  
-
-The two main functions of the console are to view logged messages from developers and to run JavaScript code.  
+The two main functions of the console are to view logged messages from developers and to run JavaScript code. If you don't have the console drawer open, you can get to it by typing <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>J</kbd> or it is the second tab after hitting <kbd>F12</kbd>.  
 
 ### *Viewing Messages*
 
@@ -146,7 +148,9 @@ The sources tab handles three very important functions:
 
 1. It allows you to view all the files the current website has downloaded
 2. Allows you to make changes to JavaScript and CSS files and view the results in your browser
-3. And maybe most importantly, it allows you to debug code
+3. And maybe most importantly, it allows you to debug code  
+
+The *Page* menu below shows the website files arranged in a virtual folder structure, organized according to which server sent the file. You can click on any file and view the contents, often times learning in-depth knowledge about how a website functions. Additionally, the sources tab can turn minified files--code files with whitespace removed and names shortened so as to save on file size--back into something that is human readable.
 
 <br />
 
@@ -154,6 +158,15 @@ The sources tab handles three very important functions:
 
 <br />
 
+### *Breakpoints*
+
+While much of the discussion around debugging JavaScript code is beyond the scope of this tutorial, one helpful thing to note is the ability to add breakpoints. When a breakpoint is added to a line of code, any time that particular line is called, Chrome will pause execution of the page, open the sources tab, and allow you to inspect all of the current variables currently in use by your program. This can be immensely helpful in determing why things are breaking and how you can fix them. To add breakpoints, click on the line number you want to stop on and a blue marker should appear. You can also add conditional breakpoints--ones that only pause code execution if a certain condition is met, like a boolean being true.
+
+<br />
+
+<img src="breakpoint.png" alt="breakpoint">
+
+<br />
 
 ### *Code Snippets*
 
@@ -165,9 +178,7 @@ An interesting and little known feature of the sources tab are code snippets. Co
 
 ## Network
 
-is tutorial serves as an introduction and walkthrough of the basic features
-found in the Google Chrome Developer Console. We will discuss how it can be helpful for 
-We will explo
+The network tab is 
 
 
 <br/>
