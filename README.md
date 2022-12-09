@@ -3,7 +3,7 @@
 <img src="chrome-devtools.svg" alt="Markdownify" width="150">
 
 # An Intro to Chrome DevTools
-### By Gerard Lucas - IT1600-01
+### By Gerard Lucas
 
 <br />
 
@@ -13,10 +13,10 @@
 
 [Overview](#overview) • 
 [Getting Started](#getting-started) • 
-[Elements Tab](#elements-tab) • 
+[Elements Tab](#elements) • 
 [Console](#console) • 
-[Sources Tab](#sources-tab) • 
-[Network Tab](#network-tab)
+[Sources Tab](#sources) • 
+[Network Tab](#network)
 
 </div>
 
@@ -26,12 +26,16 @@ This tutorial serves as a walkthrough of the basic features found in Chrome DevT
 We will explore the main features and functions of Chrome DevTools, as well as how they can help you be more productive. First, we will go over some helpful configuration options, and then we will explore common uses of the elements, console, sources, and network tabs.
 
 <br/>
-  
+
+### *Audience*
+
 This tutorial is aimed at someone just beginning web development. You should have some familiarity with how HTML, CSS, and JavaScript function together to build a website, but detailed knowledge is not necessary. We will cover only the basic uses of DevTools; for full documentation please refer to the [Official Guide](https://developer.chrome.com/docs/devtools/).
 
 <br/>
 
 ## Getting Started
+
+Often called the "dev console" or just "the console," Chrome DevTools can be one of the most potent weapons in your arsenal when it comes to tracking down issues on slow pages or fixing bugs. You can do things like modify live CSS, run your own JavaScript code on demand, and inspect the network traffic happening each time you visit a new website. While this guide is aimed at Google Chrome specifically, all the major browsers have their own, similar, version of developer tools. Much of the information contained in this guide will likely be helpful while working with other browsers.  
 
 opening the console
 
@@ -47,7 +51,7 @@ lots more to see in "more tools"
 
 <br />
 
-## Elements Tab
+## Elements
 
 is tutorial serves as an introduction and walkthrough of the basic features
 found in the Google Chrome Developer Console. We will discuss how it can be helpful for 
@@ -96,7 +100,7 @@ As you can see, not only can you write messages, but you can create new variable
 
 <br />
 
-## Sources Tab
+## Sources
 
 is tutorial serves as an introduction and walkthrough of the basic features
 found in the Google Chrome Developer Console. We will discuss how it can be helpful for 
@@ -109,8 +113,19 @@ https://developer.chrome.com/docs/devtools/javascript/snippets/
 
 <br />
 
-## Network Tab
+## Network
 
 is tutorial serves as an introduction and walkthrough of the basic features
 found in the Google Chrome Developer Console. We will discuss how it can be helpful for 
 We will explo
+
+
+<br/>
+<br/>
+<br/>
+
+*This guide was created by [Gerard Lucas](https://gerardlucas.com) for IT1600-01 @ The University of Missouri-Columbia*
+
+<br />
+
+[Back to Top](#an-intro-to-chrome-devtools)
