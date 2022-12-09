@@ -47,33 +47,33 @@ Let's start by opening the main DevTools window. The default keybinds are <kbd>C
 
 <br />
 
+Just as you have a prefered way of setting up your IDE, you will probably have a way you like to set up your DevTools windows. Much of this is personal preference, but we will go over a few common modifications that can help boost your speed while using the tools.
 
-Often 
+### *Dock the Window*
+
+By default, the DevTools application will open up in its' own window, but it is possible to keep it docked in your main Chrome browser tab right next to the website you are currently modifying. This can be especially helpful when you only have one monitor, or when you are using on your monitors for development work and one for your Chrome tab. To do this, open the customization menu (three dots in the top right corner) and select one of the dock locations. You can return to a seperate window by selecting the first option in the menu.
 
 <br />
 
-<img src="dock-window.png" alt="main window">
+<img src="dock-window.png" alt="dock window">
 
 <br />
 
+### *Keep Console Open*
 
-Just as you have a prefered way of setting up your IDE, you will probably have a way you like to set up your console.
+While the console is its' own section of DevTools with a dedicated tab, it is often helpful to have the console accessible no matter which part of DevTools you are currently using. This can also be done from the customization menu, or toggled on & off by the <kbd>ESC</kbd> key.
 
-a note that firefox and edge both have consoles also.
+<br />
 
-pin to right
+<img src="open-console.png" alt="open console">
 
-keep console open (esc hotkey)
-
-lots more to see in "more tools"
+<br />
 
 <br />
 
 ## Elements
 
-is tutorial serves as an introduction and walkthrough of the basic features
-found in the Google Chrome Developer Console. We will discuss how it can be helpful for 
-We will explo
+The elements tab is probably the most used section of DevTools. Elements allows you to select, view, and modify all the parts of the website you are currently viewing--also called the page's elements. While
 
 right click an element on the page -> click inspect element -> elements tab opens focused to this element
 
@@ -120,7 +120,7 @@ As you can see, not only can you write messages, but you can create new variable
 
 ## Sources
 
-The source tab handles three very important functions:
+The sources tab handles three very important functions:
 
 1. It allows you to view all the files the current website has downloaded
 2. Allows you to make changes to JavaScript and CSS files and view the results in your browser
