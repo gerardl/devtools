@@ -160,7 +160,7 @@ The *Page* menu below shows the website files arranged in a virtual folder struc
 
 ### *Breakpoints*
 
-While much of the discussion around debugging JavaScript code is beyond the scope of this tutorial, one helpful thing to note is the ability to add breakpoints. When a breakpoint is added to a line of code, any time that particular line is called, Chrome will pause execution of the page, open the sources tab, and allow you to inspect all of the current variables currently in use by your program. This can be immensely helpful in determing why things are breaking and how you can fix them. To add breakpoints, click on the line number you want to stop on and a blue marker should appear. You can also add conditional breakpoints--ones that only pause code execution if a certain condition is met, like a boolean being true.
+While much of the discussion around debugging JavaScript code is beyond the scope of this tutorial, one helpful thing to note is the ability to add breakpoints. When a breakpoint is added to a line of code, any time that particular line is called, Chrome will pause execution of the page, open the sources tab, and allow you to inspect all of the variables currently in use by your program. This can be immensely helpful in determing why things are breaking and how you can fix them. To add breakpoints, click on the line number you want to stop on and a blue marker should appear. You can also add conditional breakpoints--ones that only pause code execution if a certain condition is met, like a boolean being true.
 
 <br />
 
@@ -178,8 +178,28 @@ An interesting and little known feature of the sources tab are code snippets. Co
 
 ## Network
 
-The network tab is 
+The last tool we will cover in this guide is the network tab. The network tab allows you to inspect the [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) calls going in and out of your browser. This covers things like downloading the HTML, CSS, and JavaScript of a website as well as movies and videos. It also shows when you send things from your computer to the server--like when you submit form data. These different media types can be filtered using controls found at the top of the network page. Other important pieces of information in the network view include the size of data tranfered from the server, and how long each request took.  
 
+One important thing to know, is that DevTools must be open to capture network traffic. If you go to the network tab and do not see anything, try refreshing your page.  
+
+
+### *Inspecting a Request*
+
+The two images below show a user inspecting an [XHR](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) request--a type of request that lets a server send data without refreshing the whole page. The first image shows the headers, both the initial request for data from the server and the response. As you can see, the method is "GET," which means we are asking for a resource from the server. Our status code is 200, which means the request was successful. The response header shows a whole host of information about the server, time of request, security in use, size of the returned data, and more.  
+
+The second image shows the response. In this instance, it is [JSON](https://en.wikipedia.org/wiki/JSON) data, a common format for exchanging information over the internet. As you can see, the format is human-readable. Typically, JavaScript code from the website would take this JSON data and use it to update parts of the website, all without the user having to refresh or change pages.
+
+<br />
+
+<img src="request.png" alt="request">
+
+<br />
+
+<br />
+
+<img src="response.png" alt="response">
+
+<br />
 
 <br/>
 <br/>
