@@ -13,6 +13,7 @@
 
 [Overview](#overview) • 
 [Getting Started](#getting-started) • 
+[Customization](#customization) • 
 [Elements](#elements) • 
 [Console](#console) • 
 [Sources](#sources) • 
@@ -25,9 +26,7 @@
 ## Overview
 
 This tutorial serves as a walkthrough of the basic features found in Chrome DevTools--a set of tools built into the Chrome browser designed to help web developers.
-We will explore the main features and functions of Chrome DevTools, as well as how they can help you be more productive. First, we will go over some helpful configuration options, and then we will explore common uses of the elements, console, sources, and network tabs.
-
-<br/>
+We will explore the main features and functions of Chrome DevTools, as well as how they can help you be more productive. First, we will go over some helpful configuration options, and then we will explore common uses of the elements, console, sources, and network tabs.  
 
 ### *Audience*
 
@@ -39,7 +38,7 @@ This tutorial is aimed at someone just beginning web development. You should hav
 
 Often called the "developer console" or just "the console," Chrome DevTools can be one of the most potent weapons in your arsenal when it comes to tracking down issues on slow pages or fixing bugs. You can do things like modify live CSS, run your own JavaScript code on demand, and inspect the network traffic happening each time you visit a new website. While this guide is aimed at Google Chrome specifically, all the major browsers have their own, similar, version of developer tools. Much of the information contained in this guide will likely be helpful while working with other browsers.  
 
-Let's start by opening the main DevTools window. The default keybinds are <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>I</kbd> and <kbd>F12</kbd>. If you have changed these shortcuts, you can also click on the customization menu (three dots) in the top-right corner of Google Chrome, open the **more tools** sub-menu and click **Developer tools**. You should see a window that looks something like the image below.
+The only software you need is the Google Chrome browser; DevTools is included in every install. Let's start by opening the main DevTools window. The default keybinds are <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>I</kbd> and <kbd>F12</kbd>. If you have changed these shortcuts, you can also click on the customization menu (three dots) in the top-right corner of Google Chrome, open the **more tools** sub-menu and click **Developer tools**. You should see a window that looks something like the image below.
 
 <br />
 
@@ -47,10 +46,7 @@ Let's start by opening the main DevTools window. The default keybinds are <kbd>C
 
 <br />
 
-### *Tour of the Main Window*
-
-+ The
-+ f
+## Customization
 
 Just as you have a prefered way of setting up your IDE, you will probably have a way you like to set up your DevTools windows. Much of this is personal preference, but we will go over a few common modifications that can help boost your speed while using the tools.
 
@@ -87,9 +83,21 @@ Often when you are developing a website you need to test the user experience on 
 
 ## Elements
 
-The elements tab is probably the most used section of DevTools. Elements allows you to select, view, and modify the [DOM](https://en.wikipedia.org/wiki/Document_Object_Model) elements of the website you are currently viewing.
+The elements tab is probably the most used section of DevTools. Elements allows you to select, view, and modify the [DOM](https://en.wikipedia.org/wiki/Document_Object_Model) elements of the website you are currently viewing. Often, one of the most time consuming tasks of web development is making minor CSS tweaks, and this is when elements can be a real life saver. As you can see below, I've decided that I *need* to have a bright red background on my page, so I've selected the element in the DOM explorer window and modified the background-color style in the Styles pane to the right. Now I can see how my changes will look instantly, without having to redeploy my website (spoiler: not great).
 
-right click an element on the page -> click inspect element -> elements tab opens focused to this element
+<br />
+
+<img src="elements.png" alt="elements">
+
+<br />
+
+### *Element Highlighting*
+
+The DOM of a typical website can be absolutely massive, so one of the most helpful features of the elements tab is the ability to click on a section of the page and jump right to the HTML that created it. Not only that, but DevTools highlights the selected element, like in the image below, and even shows you padding and margins around it--represented by the green and orange boxes, respectively. right click an element on the page -> click inspect element -> elements tab opens focused to this element
+
+<br />
+
+<img src="element-highlight.png" alt="element highlight">
 
 <br />
 
