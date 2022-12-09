@@ -47,6 +47,11 @@ Let's start by opening the main DevTools window. The default keybinds are <kbd>C
 
 <br />
 
+### *Tour of the Main Window*
+
++ The
++ f
+
 Just as you have a prefered way of setting up your IDE, you will probably have a way you like to set up your DevTools windows. Much of this is personal preference, but we will go over a few common modifications that can help boost your speed while using the tools.
 
 ### *Dock the Window*
@@ -69,11 +74,20 @@ While the console is its' own section of DevTools with a dedicated tab, it is of
 
 <br />
 
+### *Mobile Mode*
+
+Often when you are developing a website you need to test the user experience on cell phones and tablets. This is when mobile mode comes in handy. The blue button in the top right of the image below brings up the mobile menu, which allows you to pick from a list of specific devies to emulate and even an option to throttle your network speed to better mimic mobile network speeds. Mouse interactions change to mimic the touch controls and events found on phones and tables.
+
 <br />
+
+<img src="mobile-view.png" alt="mobile mode">
+
+<br />
+
 
 ## Elements
 
-The elements tab is probably the most used section of DevTools. Elements allows you to select, view, and modify all the parts of the website you are currently viewing--also called the page's elements. While
+The elements tab is probably the most used section of DevTools. Elements allows you to select, view, and modify the [DOM](https://en.wikipedia.org/wiki/Document_Object_Model) elements of the website you are currently viewing.
 
 right click an element on the page -> click inspect element -> elements tab opens focused to this element
 
