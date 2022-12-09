@@ -13,10 +13,10 @@
 
 [Overview](#overview) • 
 [Getting Started](#getting-started) • 
-[Elements Tab](#elements) • 
+[Elements](#elements) • 
 [Console](#console) • 
-[Sources Tab](#sources) • 
-[Network Tab](#network)
+[Sources](#sources) • 
+[Network](#network)
 
 </div>
 
@@ -37,9 +37,25 @@ This tutorial is aimed at someone just beginning web development. You should hav
 
 ## Getting Started
 
-Often called the "dev console" or just "the console," Chrome DevTools can be one of the most potent weapons in your arsenal when it comes to tracking down issues on slow pages or fixing bugs. You can do things like modify live CSS, run your own JavaScript code on demand, and inspect the network traffic happening each time you visit a new website. While this guide is aimed at Google Chrome specifically, all the major browsers have their own, similar, version of developer tools. Much of the information contained in this guide will likely be helpful while working with other browsers.  
+Often called the "developer console" or just "the console," Chrome DevTools can be one of the most potent weapons in your arsenal when it comes to tracking down issues on slow pages or fixing bugs. You can do things like modify live CSS, run your own JavaScript code on demand, and inspect the network traffic happening each time you visit a new website. While this guide is aimed at Google Chrome specifically, all the major browsers have their own, similar, version of developer tools. Much of the information contained in this guide will likely be helpful while working with other browsers.  
 
-opening the console
+Let's start by opening the main DevTools window. The default keybinds are <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>I</kbd> and <kbd>F12</kbd>. If you have changed these shortcuts, you can also click on the customization menu (three dots) in the top-right corner of Google Chrome, open the **more tools** sub-menu and click **Developer tools**. You should see a window that looks something like the image below.
+
+<br />
+
+<img src="main-window.png" alt="main window">
+
+<br />
+
+
+Often 
+
+<br />
+
+<img src="dock-window.png" alt="main window">
+
+<br />
+
 
 Just as you have a prefered way of setting up your IDE, you will probably have a way you like to set up your console.
 
@@ -104,14 +120,24 @@ As you can see, not only can you write messages, but you can create new variable
 
 ## Sources
 
-is tutorial serves as an introduction and walkthrough of the basic features
-found in the Google Chrome Developer Console. We will discuss how it can be helpful for 
-We will explo
+The source tab handles three very important functions:
+
+1. It allows you to view all the files the current website has downloaded
+2. Allows you to make changes to JavaScript and CSS files and view the results in your browser
+3. And maybe most importantly, it allows you to debug code
+
+<br />
+
+<img src="sources.png" alt="sources tab">
+
+<br />
 
 
-code snippets - save reusable javascript blocks that are stored in the sources tab.
+### *Code Snippets*
 
-https://developer.chrome.com/docs/devtools/javascript/snippets/
+An interesting and little known feature of the sources tab are code snippets. Code snippets allow you to save reusable code blocks that are stored in the sources tab. If you find yourself running the same JavaScript in the console over and over again, you may want to check out snippets. You can read more about them [Here](https://developer.chrome.com/docs/devtools/javascript/snippets/).
+
+
 
 <br />
 
