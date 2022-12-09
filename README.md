@@ -38,7 +38,7 @@ This tutorial is aimed at someone just beginning web development. You should hav
 
 Often called the "developer console" or just "the console," Chrome DevTools can be one of the most potent weapons in your arsenal when it comes to tracking down issues on slow pages or fixing bugs. You can do things like modify live CSS, run your own JavaScript code on demand, and inspect the network traffic happening each time you visit a new website. While this guide is aimed at Google Chrome specifically, all the major browsers have their own, similar, version of developer tools. Much of the information contained in this guide will likely be helpful while working with other browsers.  
 
-The only software you need is the Google Chrome browser; DevTools is included in every install. Let's start by opening the main DevTools window. The default keybinds are <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>I</kbd> and <kbd>F12</kbd>. If you have changed these shortcuts, you can also click on the customization menu (three dots) in the top-right corner of Google Chrome, open the **more tools** sub-menu and click **Developer tools**. You should see a window that looks something like the image below.
+The only software you need to follow this tutorial is the Google Chrome browser; DevTools is included in every install. Let's start by opening the main DevTools window. The default keybinds are <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>I</kbd> or <kbd>F12</kbd>. If you have changed these shortcuts, you can also click on the customization menu (three dots) in the top-right corner of Google Chrome, open the **more tools** sub-menu and click **Developer tools**. You should see a window that looks something like the image below.
 
 <br />
 
@@ -52,7 +52,7 @@ Just as you have a prefered way of setting up your IDE, you will probably have a
 
 ### *Dock the Window*
 
-By default, the DevTools application will open up in its' own window, but it is possible to keep it docked in your main Chrome browser tab right next to the website you are currently modifying. This can be especially helpful when you only have one monitor, or when you are using on your monitors for development work and one for your Chrome tab. To do this, open the customization menu (three dots in the top right corner) and select one of the dock locations. You can return to a seperate window by selecting the first option in the menu.
+By default, the DevTools application will open up in its' own window, but it is possible to keep it docked in your main Chrome browser tab right next to the website you are currently modifying. This can be especially helpful when you only have one monitor, or when you are using one of your monitors for development work and one for your Chrome tab. To do this, open the customization menu (three dots in the top right corner) and select one of the dock locations. You can return to a seperate window by selecting the first option in the menu.
 
 <br />
 
@@ -72,7 +72,7 @@ While the console is its' own section of DevTools with a dedicated tab, it is of
 
 ### *Mobile Mode*
 
-Often when you are developing a website you need to test the user experience on cell phones and tablets. This is when mobile mode comes in handy. The blue button in the top right of the image below brings up the mobile menu, which allows you to pick from a list of specific devies to emulate and even an option to throttle your network speed to better mimic mobile network speeds. Mouse interactions change to mimic the touch controls and events found on phones and tables.
+Often when you are developing a website you need to test the user experience on cell phones and tablets. This is when mobile mode comes in handy. The blue button in the top right of the image below brings up the mobile menu, which allows you to pick from a list of specific devies to emulate, and even includes an option to throttle your network speed to better mimic mobile network connections. Mouse interactions change to mimic the touch controls and events found on phones and tables.
 
 <br />
 
@@ -112,7 +112,7 @@ The two main functions of the console are to view logged messages from developer
 ### *Viewing Messages*
 
 When writing JavaScript, it can often be very useful to write messages from your code that you can view while you test out your website. 
-Some of the most common are sending out a message when you reach a certain block of code, or print out the value of a variable. These messages are written by telling the console to log, like the example below.
+Some of the most common uses include sending out a message when you reach a certain block of code, or print out the value of a variable. These messages are written by telling the console to log, like the example below.
 
 ``` js
 console.log("Hello World!");
