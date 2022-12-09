@@ -73,11 +73,17 @@ console.log("Hello World!");
 ```
 
 If you monitor the console while browsing popular websites, especially if you have ad-blockers on, you will see many error messages appear in the console. The image below shows a console exception, denoted by the red background and "X". The error message and location of the error is also displayed, in this case, a request to get data is being blocked by an ad-blocker. Clicking
-the link to the right (www-embed-player) would navigate the user to a view of the offending code.
+the link to the right (www-embed-player) would navigate the user to a view of the offending code, giving them insight into the problem. This can be a great tool in figuring out where your own errors are originating from.
+
+<br />
 
 <img src="error.png" alt="console error">
 
+<br />
+
 ### *Writing JavaScript*
+
+In addition to monitoring for messages coming from JavaScript code, you can also write your own code in the console. The console is something called a [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)--A read-eval-print loop shell. This type of programming environment waits for one single group of user input, JavaScript code in this case, and then executes it and returns the result immediately. It functions similarly to the command prompt or terminal in your operating system. Open your console and execute the code below.
 
 ``` js
 let name = "Friend";
@@ -85,6 +91,9 @@ let date = new Date();
 
 console.log(`Hello ${name}! The date is ${date.toLocaleDateString()}.`);
 ```
+
+As you can see, not only can you write messages, but you can create new variables, make use of built-in methods, and even modify the contents of the page you are viewing through console entry.
+
 <br />
 
 ## Sources Tab
