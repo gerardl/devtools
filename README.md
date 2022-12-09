@@ -20,6 +20,8 @@
 
 </div>
 
+<br />
+
 ## Overview
 
 This tutorial serves as a walkthrough of the basic features found in Chrome DevTools--a set of tools built into the Chrome browser designed to help web developers.
